@@ -1,15 +1,9 @@
 * {
-    
+    background-color: black;
     margin: auto;
 }
 
-body{
-    background-color: black;
-    background-image: url(../../imgs/back.png)
-}
-
 header {
-    background-color: black;
     border: 0px solid;
     border-bottom-width: 5px;
     border-bottom-color: #00b200;
@@ -18,7 +12,6 @@ header {
     position: fixed;
     top: 0;
 }
-
 
 header h1 {
     overflow: hidden;
@@ -48,41 +41,12 @@ div.topimg img {
     width: 100%;
 }
 
-div.maintext{
-    float: left;
-    width: 75%;
+div.contents {
+    width: 70%;
     height: auto;
     margin: 0;
+    float: left;
     overflow: hidden;
-}
-
-div.maintext h1{
-    color: white;
-    margin-left: 10px;
-    border-left: 4px solid green;
-    
-    
-}
-
-div.maintext h2{
-    color:white;
-    margin-top: 5px;
-    margin-left: 15px;
-    border-left: 4px solid lightgreen;
-    
-}
-
-div.maintext span{
-    margin:10;
-    color:white;
-    margin-left: 20px;
-    font-size: 20px;
-    
-}
-
-div.maintext img{
-    margin:10px;
-    width:40%;
 }
 
 div.sidebar {
@@ -102,6 +66,82 @@ div.sidebar a {
     border-style: none;
 }
 
+div.contents1 {
+    height: 200px;
+    width: 250px;
+    float: left;
+    overflow: hidden;
+    margin: 10px;
+    background-color: black;
+    border: 3px solid;
+    border-color: #00b200;
+}
+
+div.contents1:hover {
+    border-color: aquamarine;
+}
+
+div.contents1 h1 {
+    color: white;
+    font-size: 25px;
+    background-color: black;
+}
+
+div.contents1 img {
+    margin-left: 5px;
+    float: none;
+    width: 50%;
+    background-color: black;
+}
+
+div.contents2 {
+    width: 250px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    margin: 10px;
+    background-color: black;
+    border: 3px solid #00b200
+}
+
+div.contents2 h1 {
+    color: white;
+    font-size: 25px;
+}
+
+div.contents2 img {
+    margin-left: 10px;
+    float: none;
+    width: 50%;
+}
+
+div.contents2:hover {
+    border-color: aquamarine;
+}
+
+div.contents3 {
+    width: 250px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    margin: 10px;
+    border: 3px solid #00b200;
+}
+
+div.contents3 h1 {
+    color: white;
+    font-size: 20px;
+}
+
+div.contents3 img {
+    margin-left: 10px;
+    float: none;
+    width: 50%;
+}
+
+div.contents3:hover {
+    border-color: aquamarine;
+}
 
 div.sidebarTitle {
     margin-left: 5px;
@@ -123,17 +163,10 @@ div.R-Site1 h1 {
 }
 
 div.R-Site1 img {
-    position: relative;
     width: 100%;
     z-index: 5;
     height: auto;
-}
-
-div.R-Site1 .caption{
-    color: black;
-    z-index: 3;
-    position: absolute;
-    margin-top: -50px;
+    overflow: hidden;
 }
 
 div.R-Site2 {
@@ -150,51 +183,23 @@ div.R-Site2 h1 {
 }
 
 div.R-Site2 img {
-    position: relative;
-    width: 100%;
-    z-index: 5;
+    width: 100%
 }
 
-div.R-Site2 .caption{
-    position: absolute;
-    color:black;
-    text-align: center;
-    margin-top: -80px;
-    z-index: 3;
-}
-
-div.R-Site1 .covor {
-    background-color: chartreuse;
+div.R-Site1 .covor{
+    background-color:chartreuse;
     margin: none;
     border: 0px solid;
     height: auto;
     overflow: hidden;
 }
 
-
-div.R-Site1:hover img {
+div.R-Site1:hover img{
     -webkit-transform: translateY(-80px);
     -ms-transform: translateY(-80px);
     -o-transform: translateY(-80px);
     transform: translateY(-80px);
-    -webkit-transition: -webkit-transform 0.4s;
-    -o-transition: -o-transform 0.4s;
-    transition: transform 0.4s;
-}
-
-div.R-Site2 .covor {
-    background-color:chartreuse;
-    margin: none;
-    border: 0px solid;
-    height:auto;
-    overflow: hidden;
-}
-
-div.R-Site2:hover img {
-    -webkit-transform: translateY(-80px);
-    -ms-transform: translateY(-80px);
-    -o-transform: translateY(-80px);
-    transform: translateY(-80px);
+    
     -webkit-transition: -webkit-transform 0.4s;
     -o-transition: -o-transform 0.4s;
     transition: transform 0.4s;

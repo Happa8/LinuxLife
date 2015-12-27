@@ -258,7 +258,9 @@ div.R-Site2 h1 {
 }
 
 div.R-Site2 img {
-    width: 100%
+    position: relative;
+    width: 100%;
+    z-index: 5;
 }
 
 div.R-Site1 .covor{
@@ -266,19 +268,26 @@ div.R-Site1 .covor{
     overflow: hidden;
 }
 div.R-Site1 img {
+    position: relative;
     width: 100%;
     z-index: 5;
     height: auto;
 }
 
 
-
+div.R-Site1 .caption{
+    color: black;
+    z-index: 3;
+    position: absolute;
+    margin-top: -50px;
+}
 
 div.R-Site1 span{
 }
 
 
 div.R-Site1:hover img {
+    
     -webkit-transform: translateY(-80px);
     -ms-transform: translateY(-80px);
     -o-transform: translateY(-80px);
@@ -296,7 +305,16 @@ div.R-Site2 .covor {
     overflow: hidden;
 }
 
+div.R-Site2 .caption{
+    position: absolute;
+    color:black;
+    text-align: center;
+    margin-top: -80px;
+    z-index: 3;
+}
+
 div.R-Site2:hover img {
+    
     -webkit-transform: translateY(-80px);
     -ms-transform: translateY(-80px);
     -o-transform: translateY(-80px);
@@ -305,6 +323,8 @@ div.R-Site2:hover img {
     -o-transition: -o-transform 0.4s;
     transition: transform 0.4s;
 }
+
+
 
 .caption{
     text-align: center;

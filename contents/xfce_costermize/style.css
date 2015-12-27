@@ -9,6 +9,7 @@ body{
 }
 
 header {
+    background-color: black;
     border: 0px solid;
     border-bottom-width: 5px;
     border-bottom-color: #00b200;
@@ -17,6 +18,7 @@ header {
     position: fixed;
     top: 0;
 }
+
 
 header h1 {
     overflow: hidden;
@@ -54,7 +56,7 @@ div.maintext{
     overflow: hidden;
 }
 
-div.maintext .maintext-title{
+div.maintext h1{
     color: white;
     margin-left: 10px;
     border: 0px solid ;
@@ -63,7 +65,7 @@ div.maintext .maintext-title{
     
 }
 
-div.maintext .maintext-heading{
+div.maintext h2{
     color:white;
     margin-top: 5px;
     margin-left: 15px;
@@ -71,11 +73,16 @@ div.maintext .maintext-heading{
     
 }
 
-div.maintext .maintext-text{
+div.maintext span{
     color:white;
     margin-left: 20px;
     font-size: 20px;
     
+}
+
+div.maintext img{
+    margin: 10px;
+    width: 100%;
 }
 
 div.sidebar {
@@ -116,10 +123,17 @@ div.R-Site1 h1 {
 }
 
 div.R-Site1 img {
+    position: relative;
     width: 100%;
     z-index: 5;
     height: auto;
-    overflow: hidden;
+}
+
+div.R-Site1 .caption{
+    color: black;
+    z-index: 3;
+    position: absolute;
+    margin-top: -50px;
 }
 
 div.R-Site2 {
@@ -136,7 +150,17 @@ div.R-Site2 h1 {
 }
 
 div.R-Site2 img {
-    width: 100%
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+div.R-Site2 .caption{
+    position: absolute;
+    color:black;
+    text-align: center;
+    margin-top: -80px;
+    z-index: 3;
 }
 
 div.R-Site1 .covor {

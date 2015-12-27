@@ -9,6 +9,7 @@ body{
 }
 
 header {
+    background-color: black;
     border: 0px solid;
     border-bottom-width: 5px;
     border-bottom-color: #00b200;
@@ -17,6 +18,7 @@ header {
     position: fixed;
     top: 0;
 }
+
 
 header h1 {
     overflow: hidden;
@@ -116,10 +118,17 @@ div.R-Site1 h1 {
 }
 
 div.R-Site1 img {
+    position: relative;
     width: 100%;
     z-index: 5;
     height: auto;
-    overflow: hidden;
+}
+
+div.R-Site1 .caption{
+    color: black;
+    z-index: 3;
+    position: absolute;
+    margin-top: -50px;
 }
 
 div.R-Site2 {
@@ -136,7 +145,17 @@ div.R-Site2 h1 {
 }
 
 div.R-Site2 img {
-    width: 100%
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+div.R-Site2 .caption{
+    position: absolute;
+    color:black;
+    text-align: center;
+    margin-top: -80px;
+    z-index: 3;
 }
 
 div.R-Site1 .covor {
