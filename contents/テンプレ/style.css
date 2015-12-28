@@ -57,7 +57,7 @@ div.maintext{
     overflow: hidden;
 }
 
-div.maintext .maintext-title{
+.maintext h1{
     color: white;
     margin-left: 10px;
     border: 0px solid ;
@@ -66,15 +66,15 @@ div.maintext .maintext-title{
     
 }
 
-div.maintext .maintext-heading{
+.maintext h2{
     color:white;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 15px;
     border-left: 4px solid lightgreen;
     
 }
 
-div.maintext .maintext-text{
+.maintext .text span{
     color:white;
     margin-left: 20px;
     font-size: 20px;
