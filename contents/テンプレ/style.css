@@ -17,6 +17,7 @@ header {
     margin: 0px;
     position: fixed;
     top: 0;
+    z-index: 20;
 }
 
 
